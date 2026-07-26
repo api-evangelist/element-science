@@ -1,0 +1,17 @@
+# Element Science
+
+> Element Science is a San Francisco-based medical device and digital health company. Its flagship product is the Jewel Patch-Wearable Cardioverter Defibrillator (P-WCD), a low-profile, water-resistant wearable that continuously monitors for and treats life-threatening ventricular arrhythmias in patients at temporary elevated risk of sudden cardiac arrest. The Jewel received FDA Premarket Approval in 2025, and CE Mark / UKCA marking in January 2024. Element Science is a portfolio company of GV. No public developer API or machine-readable API specification has been identified for this provider.
+
+## Company
+- [Element Science](https://elementscience.com): Company website.
+- [Company / About](https://elementscience.com/company/): Company overview and mission.
+- [Product — Jewel P-WCD](https://elementscience.com/product/): The Jewel Patch-Wearable Cardioverter Defibrillator.
+- [Careers](https://elementscience.com/careers/): Open roles.
+- [Contact](https://elementscience.com/contact/): Contact and office details (San Francisco, CA; Redwood City, CA).
+
+## Legal
+- [Privacy Policy](https://elementscience.com/privacy/): Privacy policy for Element Science services.
+
+## Notes
+- No public API, developer portal, OpenAPI/AsyncAPI specification, SDK packages, MCP server, or `/.well-known/` discovery documents were found at the time of enrichment. The primary domain is served behind a captcha/bot-mitigation edge that returns HTTP 202 challenge pages for programmatic requests to `/.well-known/*` and `/llms.txt`.
+- This llms.txt was generated from the API Evangelist catalog record, not published by the provider.

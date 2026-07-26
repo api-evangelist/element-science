@@ -1,8 +1,25 @@
 aid: element-science
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/element-science.png
 name: Element Science
-description: 'Element Science is a company surfaced as a portfolio company of gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Element Science is a San Francisco-based medical device and digital health company
+  focused on high-risk cardiovascular patients. Its flagship product is the Jewel Patch-Wearable
+  Cardioverter Defibrillator (P-WCD) — a low-profile, water-resistant wearable that continuously
+  monitors for and treats life-threatening ventricular arrhythmias in patients at temporary elevated
+  risk of sudden cardiac arrest. The Jewel received FDA Premarket Approval in 2025 and CE Mark / UKCA
+  marking in January 2024. Element Science is a portfolio company of GV. Added to the API Evangelist
+  network as a lead; no public developer API or machine-readable specification has been identified for
+  this provider at the time of enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/element-science/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Life Sciences
+- Medical Devices
+- Digital Health
+- Cardiovascular
+- Wearables
+- Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: https://elementscience.com
+- type: Product
+  url: https://elementscience.com/product/
+- type: Support
+  url: https://elementscience.com/contact/
+- type: PrivacyPolicy
+  url: https://elementscience.com/privacy/
+- type: DomainSecurity
+  url: security/element-science-domain-security.yml
+- type: LLMsTxt
+  url: llms/element-science-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
